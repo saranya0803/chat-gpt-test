@@ -10,7 +10,7 @@ pipeline{
     stages {
         stage('Checkout from Git'){
             steps{
-                git branch: 'master', url: 'https://github.com/saranya0803/chat-gpt-test.git'
+                git branch: 'main', url: 'https://github.com/saranya0803/chat-gpt-test.git'
             }
         }
         stage('Install Dependencies') {
